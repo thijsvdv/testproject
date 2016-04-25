@@ -6,9 +6,14 @@
 
 import React from 'react';
 
+// import img from './banner.jpg';
+import styles from './index.css';
+
 export function HomePage() {
   return (
-    <h1>This is the Homepage!</h1>
+    <div className={ styles.header }>
+      <h1 className={ styles.h1 }>Greenville</h1>
+    </div>
   );
 }
 
